@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 st.title("🌊 Fluid Dynamics Prediction App")
 
 # Load model
-model = load_model("fluid dynamic_model.h5")
+model = load_model("https://github.com/Gaurav4541/fluid-dynamic-app/blob/main/fluid%20dynamic_model.h5")
 
 # Upload file
 uploaded_file = st.file_uploader("Upload your CSV file (like Flow.csv)", type=["csv"])
